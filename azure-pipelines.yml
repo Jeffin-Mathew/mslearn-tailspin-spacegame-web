@@ -1,0 +1,2 @@
+Pool:
+      vmImage: 'Ubunto-16.04'
