@@ -1,4 +1,6 @@
-[![Build Status](https://dev.azure.com/AdatisCI-CDTraining/JSM%20Project/_apis/build/status/Jeffin-Mathew.mslearn-tailspin-spacegame-web?branchName=master)](https://dev.azure.com/AdatisCI-CDTraining/JSM%20Project/_build/latest?definitionId=5&branchName=master)
+[![Build Status](https://dev.azure.com/AdatisCI-CDTraining/JSM%20Project/_apis/build/status/Jeffin-Mathew.mslearn-tailspin-spacegame-web?branchName=master)](https://dev.azure.com/AdatisCI-CDTraining/JSM%20Project/_build/latest?definitionId=5&branchName=master) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=space-game-web-01&metric=alert_status)](https://sonarcloud.io/dashboard?id=space-game-web-01)
+
+
 
 # Contributing
 
