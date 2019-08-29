@@ -34,6 +34,14 @@ steps:
   inputs:
     command: 'restore'
     projects: '**/*.csproj'
+    
+- template: templates/build.yml
+  parameters:
+    buildConfiguration: 'Debug'
+
+- template: templates/build.yml
+  parameters:
+    buildConfiguration: 'Release'
 
 - task: SonarCloudPrepare@1
   displayName: 'Prepare SonarCloud analysis'
@@ -114,6 +122,7 @@ steps:
     publishWebProjects: false
     arguments: '--no-build --configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)/$(buildConfiguration)'
     zipAfterPublish: true
+=======
 
 - task: PublishBuildArtifacts@1
   displayName: 'Publish Artifact: drop'

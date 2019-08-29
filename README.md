@@ -1,3 +1,4 @@
+[![Build Status](https://dev.azure.com/AdatisCI-CDTraining/JSM%20Project/_apis/build/status/Jeffin-Mathew.mslearn-tailspin-spacegame-web?branchName=master)](https://dev.azure.com/AdatisCI-CDTraining/JSM%20Project/_build/latest?definitionId=5&branchName=master)
 
 # Contributing
 
